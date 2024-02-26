@@ -1,0 +1,14 @@
+fish-segmentation:
+  - size:         640
+  - topk:         100
+  - seg_h:        160
+  - seg_w:        160
+  - seg_channels: 32
+  - score_thres:  0.8
+  - iou_thres:    0.65
+
+lice-detection:
+  - size:         640
+  - overlap:      60
+  - score+thres:  0.6
+  - iou_thres:    0.2
